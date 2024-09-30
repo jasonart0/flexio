@@ -1,24 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexio - FAQs</title>
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-</head>
-<body>
-    @include('partials.navbar')
+@extends('layouts.app')
 
-    <div class="container mt-5">
-        <h1>Frequently Asked Questions</h1>
-        <ul>
-            <li>What services do you offer?</li>
-            <li>How can I contact you?</li>
-            <li>What are your business hours?</li>
-        </ul>
-    </div>
+@section('title', 'Frequently Asked Questions')
 
-    @include('partials.footer')
-    <script src="{{ asset('js/app.js') }}"></script>
-</body>
-</html>
+@section('content')
+    <h1>Frequently Asked Questions</h1>
+    <ul>
+        <li>
+            <strong>What services do you offer?</strong>
+            <p>We offer SEO marketing and HR services tailored to your business needs.</p>
+        </li>
+        <li>
+            <strong>How can I contact you?</strong>
+            <p>You can reach us via the contact form on our website or through our social media channels.</p>
+        </li>
+        <li>
+            <strong>What are your business hours?</strong>
+            <p>Our business hours are Monday to Friday, 9 AM to 5 PM.</p>
+        </li>
+    </ul>
+@endsection
