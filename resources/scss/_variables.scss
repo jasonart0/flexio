@@ -1,0 +1,55 @@
+// _variables.scss
+
+// Default (Light Mode) Colors
+$primary-color-light: #007bff;
+$secondary-color-light: #6c757d;
+$success-color-light: #28a745;
+$info-color-light: #17a2b8;
+$warning-color-light: #ffc107;
+$danger-color-light: #dc3545;
+$light-color-light: #f8f9fa;
+$dark-color-light: #343a40;
+$background-color-light: #ffffff;
+$text-color-light: #212529;
+$border-color-light: #dee2e6;
+
+// Dark Mode Colors
+$primary-color-dark: #375a7f;
+$secondary-color-dark: #444950;
+$success-color-dark: #218838;
+$info-color-dark: #138496;
+$warning-color-dark: #e0a800;
+$danger-color-dark: #c82333;
+$light-color-dark: #3a3f44;
+$dark-color-dark: #1c1e21;
+$background-color-dark: #121212;
+$text-color-dark: #f8f9fa;
+$border-color-dark: #444950;
+
+// 2. Typography
+$font-family-base: 'Roboto', sans-serif;
+$font-family-heading: 'Poppins', sans-serif;
+$font-size-base: 16px;
+$font-size-h1: 2.5rem;
+$font-size-h2: 2rem;
+$font-size-h3: 1.75rem;
+$font-size-h4: 1.5rem;
+$font-size-h5: 1.25rem;
+$font-size-h6: 1rem;
+$line-height-base: 1.5;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+// 3. Spacing
+$spacer: 1rem;
+$spacer-sm: 0.5rem;
+$spacer-md: 1.5rem;
+$spacer-lg: 2rem;
+$spacer-xl: 3rem;
+
+// 4. Borders & Radius
+$border-radius: 0.25rem;
+$border-radius-sm: 0.125rem;
+$border-radius-lg: 0.5rem;
+

@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container mt-5">
-        <h1 class="text-center">Welcome to Flexio</h1>
+        <h1 class="text-center">Home to Flexio</h1>
         <p class="text-center">
             <i class="bi bi-house-door-fill"></i> Home
         </p>
