@@ -2082,6 +2082,118 @@ url(/fonts/vendor/bootstrap-icons/bootstrap-icons.woff?39795c0b4513de014cf8685fc
 .bi-suitcase2::before { content: "\f902"; }
 .bi-vignette::before { content: "\f903"; }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
+html {
+  font-size: 100%; }
 
+body {
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #212529; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+table {
+  border-collapse: collapse;
+  width: 100%; }
+
+th, td {
+  padding: 0.5rem;
+  text-align: left; }
+
+input, button, textarea, select {
+  font-family: inherit;
+  font-size: inherit; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #212529;
+  line-height: 1.6;
+  transition: background-color 0.3s, color 0.3s; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 1.5rem; }
+
+p {
+  margin-bottom: 1.5rem; }
+
+a {
+  color: #007bff;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline; }
+
+.text-center {
+  text-align: center; }
+
+.text-right {
+  text-align: right; }
+
+.text-left {
+  text-align: left; }
+
+.mb-1 {
+  margin-bottom: 0.5rem; }
+
+.mb-2 {
+  margin-bottom: 1.5rem; }
+
+.mb-3 {
+  margin-bottom: 2rem; }
+
+.d-flex {
+  display: flex; }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0.5rem; } }
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #212529;
+  transition: background-color 0.3s, color 0.3s; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif; }
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 2rem; }
+
+button {
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.25rem;
+  background-color: #007bff;
+  color: #212529;
+  border: 1px solid #007bff;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; }
+  button:hover {
+    background-color: #3395ff;
+    border-color: #3395ff; }
+
+.dark-mode body {
+  background-color: #121212;
+  color: #f8f9fa; }
+.dark-mode button {
+  color: #f8f9fa; }
 

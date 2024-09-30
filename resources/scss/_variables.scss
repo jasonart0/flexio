@@ -1,55 +1,70 @@
 // _variables.scss
 
-// Default (Light Mode) Colors
-$primary-color-light: #007bff;
-$secondary-color-light: #6c757d;
-$success-color-light: #28a745;
-$info-color-light: #17a2b8;
-$warning-color-light: #ffc107;
-$danger-color-light: #dc3545;
-$light-color-light: #f8f9fa;
-$dark-color-light: #343a40;
-$background-color-light: #ffffff;
-$text-color-light: #212529;
-$border-color-light: #dee2e6;
+// Color Palette
+// Light Mode Colors
+$primary-color: #007bff;            // Main branding color
+$secondary-color: #6c757d;          // Secondary branding color
+$success-color: #28a745;            // Success messages
+$info-color: #17a2b8;               // Info messages
+$warning-color: #ffc107;            // Warning messages
+$danger-color: #dc3545;             // Error messages
+$light-color: #f8f9fa;              // Light background
+$dark-color: #343a40;               // Dark background
+$background-color: #ffffff;         // Page background
+$text-color: #212529;               // Main text color
+$border-color: #dee2e6;             // Border color
 
 // Dark Mode Colors
-$primary-color-dark: #375a7f;
-$secondary-color-dark: #444950;
-$success-color-dark: #218838;
-$info-color-dark: #138496;
-$warning-color-dark: #e0a800;
-$danger-color-dark: #c82333;
-$light-color-dark: #3a3f44;
-$dark-color-dark: #1c1e21;
-$background-color-dark: #121212;
-$text-color-dark: #f8f9fa;
-$border-color-dark: #444950;
+$background-color-dark: #121212;    // Dark background
+$text-color-dark: #f8f9fa;          // Main text color in dark mode
+$border-color-dark: #444950;         // Border color in dark mode
 
-// 2. Typography
-$font-family-base: 'Roboto', sans-serif;
-$font-family-heading: 'Poppins', sans-serif;
-$font-size-base: 16px;
-$font-size-h1: 2.5rem;
-$font-size-h2: 2rem;
-$font-size-h3: 1.75rem;
-$font-size-h4: 1.5rem;
-$font-size-h5: 1.25rem;
-$font-size-h6: 1rem;
-$line-height-base: 1.5;
-$font-weight-light: 300;
-$font-weight-normal: 400;
-$font-weight-bold: 700;
+// Typography
+$font-family-base: 'Roboto', sans-serif; // Base font family
+$font-family-heading: 'Poppins', sans-serif; // Heading font family
+$font-size-base: 16px;               // Base font size
+$font-size-h1: 2.5rem;               // H1 font size
+$font-size-h2: 2rem;                 // H2 font size
+$font-size-h3: 1.75rem;              // H3 font size
+$font-size-h4: 1.5rem;               // H4 font size
+$font-size-h5: 1.25rem;              // H5 font size
+$font-size-h6: 1rem;                 // H6 font size
+$line-height-base: 1.5;              // Base line height
+$font-weight-light: 300;             // Light font weight
+$font-weight-normal: 400;            // Normal font weight
+$font-weight-bold: 700;              // Bold font weight
 
-// 3. Spacing
-$spacer: 1rem;
-$spacer-sm: 0.5rem;
-$spacer-md: 1.5rem;
-$spacer-lg: 2rem;
-$spacer-xl: 3rem;
+// Spacing
+$spacer: 1rem;                       // Base spacer
+$spacer-sm: 0.5rem;                  // Small spacer
+$spacer-md: 1.5rem;                  // Medium spacer
+$spacer-lg: 2rem;                    // Large spacer
+$spacer-xl: 3rem;                    // Extra-large spacer
 
-// 4. Borders & Radius
-$border-radius: 0.25rem;
-$border-radius-sm: 0.125rem;
-$border-radius-lg: 0.5rem;
+// Borders & Radius
+$border-radius: 0.25rem;             // Base border radius
+$border-radius-sm: 0.125rem;         // Small border radius
+$border-radius-lg: 0.5rem;           // Large border radius
 
+// Box Shadows
+$box-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.1); // Small shadow
+$box-shadow-md: 0 4px 8px rgba(0, 0, 0, 0.1); // Medium shadow
+$box-shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1); // Large shadow
+$box-shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.1); // Extra large shadow
+
+// Z-Index
+$zindex-dropdown: 1000;              // Dropdown z-index
+$zindex-sticky: 1020;                // Sticky z-index
+$zindex-fixed: 1030;                 // Fixed z-index
+$zindex-modal: 1050;                 // Modal z-index
+$zindex-popover: 1060;               // Popover z-index
+$zindex-tooltip: 1070;               // Tooltip z-index
+
+// Transition
+$transition: all 0.3s ease;          // Base transition
+
+// Media Queries
+$breakpoint-sm: 576px;               // Small devices
+$breakpoint-md: 768px;               // Medium devices
+$breakpoint-lg: 992px;               // Large devices
+$breakpoint-xl: 1200px;              // Extra large devices

@@ -1,0 +1,58 @@
+// Reset Styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%; // Base font size
+}
+
+body {
+  line-height: 1.5; // Improved readability
+  font-family: $font-family-base; // Use your base font
+  background-color: $background-color; // Use your background color variable
+  color: $text-color; // Use your text color variable
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+// Lists
+ul, ol {
+  list-style: none;
+}
+
+// Links
+a {
+  text-decoration: none; // Remove underline from links
+  color: inherit; // Inherit color from parent
+}
+
+// Images
+img {
+  max-width: 100%; // Responsive images
+  height: auto; // Maintain aspect ratio
+}
+
+// Tables
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 0.5rem; // Space within table cells
+  text-align: left; // Align text to the left
+}
+
+// Forms
+input, button, textarea, select {
+  font-family: inherit; // Inherit font styles
+  font-size: inherit; // Inherit font size
+}
+
+// Add any additional resets or global styles as needed

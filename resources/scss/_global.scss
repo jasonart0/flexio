@@ -1,0 +1,67 @@
+// Import Variables
+@import 'variables';
+
+// Global Styles
+body {
+  font-family: $font-family-base; // Use your base font
+  background-color: $background-color; // Use your background color variable
+  color: $text-color; // Use your text color variable
+  line-height: 1.6; // Improve readability
+  transition: background-color 0.3s, color 0.3s; // Smooth transition for dark mode
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-heading; // Heading font
+  margin-bottom: $spacer-md; // Space below headings
+}
+
+p {
+  margin-bottom: $spacer-md; // Space below paragraphs
+}
+
+a {
+  color: $primary-color; // Link color
+  text-decoration: none; // Remove underline
+
+  &:hover {
+    text-decoration: underline; // Underline on hover
+  }
+}
+
+// Utility Classes
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.mb-1 {
+  margin-bottom: $spacer-sm; // Margin bottom small
+}
+
+.mb-2 {
+  margin-bottom: $spacer-md; // Margin bottom medium
+}
+
+.mb-3 {
+  margin-bottom: $spacer-lg; // Margin bottom large
+}
+
+.d-flex {
+  display: flex; // Flexbox utility
+}
+
+// Add more utility classes as needed...
+
+// Responsive Utilities
+@media (max-width: 768px) {
+  .container {
+    padding: $spacer-sm; // Smaller padding on mobile
+  }
+}

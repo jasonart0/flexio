@@ -1,16 +1,22 @@
 // app.scss
 
 // Import Bootstrap
-@import "bootstrap";
-@import "bootstrap-icons";
-// Import SCSS variables
-@import "variables";
 
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+// Import SCSS variables
+@import 'variables';
+// Import SCSS variables
+@import 'reset';
+// Import global
+@import 'global';
+//banner
+@import 'components/banner';
 // Base styling
 body {
   font-family: $font-family-base;
-  background-color: var(--background-color);
-  color: var(--text-color);
+  background-color: $background-color; // Use SCSS variable
+  color: $text-color;                   // Use SCSS variable
   transition: background-color 0.3s, color 0.3s;
 }
 
@@ -21,39 +27,37 @@ h1, h2, h3, h4, h5, h6 {
 .container {
   max-width: 1140px;
   margin: 0 auto;
-  padding: $spacer-lg;
+  padding: $spacer-lg;                  // Use SCSS variable
 }
 
 button {
-  font-weight: $btn-font-weight;
-  padding: var(--spacer-sm) var(--spacer-md);
-  border-radius: $border-radius;
-  background-color: var(--primary-color);
-  color: var(--text-color-light);
-  border: 1px solid var(--primary-color);
+  padding: $spacer-sm $spacer-md;       // Use SCSS variables
+  border-radius: $border-radius;         // Use SCSS variable
+  background-color: $primary-color;      // Use SCSS variable
+  color: $text-color;                    // Use SCSS variable
+  border: 1px solid $primary-color;      // Use SCSS variable
   transition: background-color 0.3s, color 0.3s, border-color 0.3s;
 
   &:hover {
-    background-color: lighten(var(--primary-color), 10%);
-    border-color: lighten(var(--primary-color), 10%);
+    background-color: lighten($primary-color, 10%); // Use SCSS variable
+    border-color: lighten($primary-color, 10%);     // Use SCSS variable
   }
 }
 
 // Dark Mode Styles
 .dark-mode {
   body {
-    background-color: var(--background-color-dark);
-    color: var(--text-color-dark);
+    background-color: $background-color-dark; // Use SCSS variable
+    color: $text-color-dark;                   // Use SCSS variable
   }
 
   button {
-    background-color: var(--primary-color-dark);
-    border-color: var(--primary-color-dark);
-    color: var(--text-color-dark);
+   
+    color: $text-color-dark;                     // Use SCSS variable
 
     &:hover {
-      background-color: lighten(var(--primary-color-dark), 10%);
-      border-color: lighten(var(--primary-color-dark), 10%);
+      
+     
     }
   }
 }
