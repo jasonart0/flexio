@@ -3,17 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexio - Home</title>
+    <title>Flexio - SEO Services</title>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
     @include('partials.navbar')
 
-    <header class="container text-center mt-5">
-        <h1>Welcome to Flexio</h1>
-        <p class="lead">Your partner in SEO Marketing and HR Services.</p>
-        <a href="/services" class="btn btn-primary mt-4">Our Services</a>
-    </header>
+    <div class="container mt-5">
+        <h1>SEO Services</h1>
+        <p>Our SEO services help improve your website's visibility on search engines, driving organic traffic and leads.</p>
+    </div>
 
     @include('partials.footer')
     <script src="{{ asset('js/app.js') }}"></script>
